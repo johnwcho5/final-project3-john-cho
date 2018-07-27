@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../assets/css/database.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Orders</h2>
+  <label for="search">Search<span class="text-muted"></span></label>
+  <input type="text" class="form-control" id="search" placeholder="" value="" style="width: 70%; display: inline;">
+  <span> <button class="btn btn-primary btn-lg btn-block" type="submit" id="searchButton" style="width: 10%; margin: auto; display: inline; ">Search</button> <button class="btn btn-primary btn-lg btn-block" type="reset" id="resetButton" style="width: 10%; margin: auto; display: inline; ">Reset</button></span>
+            
+  <div class="table-responsive">          
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Survey Number</th>
+        <th>Buyer</th>
+        <th>Address</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Zipcode</th>
+        <th>Date Ordered</th>
+        <th>Date Needed</th>
+        <th>Date Surveyed</th>
+        <th>Date Drafted</th>
+        <th>Cost</th>
+        <th>Canceled</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  </div>
+</div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="../../assets/js/database.js"></script>
+</html>

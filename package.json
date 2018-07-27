@@ -1,0 +1,28 @@
+{
+  "name": "TJK",
+  "version": "1.0.0",
+  "description": "Thomas J Kelly Inc. Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japerea08/TJK.git"
+  },
+  "keywords": [],
+  "author": "Joey Perea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/japerea08/TJK/issues"
+  },
+  "homepage": "https://github.com/japerea08/TJK#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "firebase-admin": "^5.12.1",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3"
+  }
+}
